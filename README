@@ -1,0 +1,7 @@
+what you need to change:
+
+image_2_video_voice.py --> login_account()  The Account of Discord that connect to Genmo
+
+test_2_speech.py --> azure Key
+
+test_2_image.py --> openai Key
