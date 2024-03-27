@@ -25,29 +25,31 @@ Note: If you want to create a new video, make sure to clear the `audio_files` an
 In `image_2_video_rpa.py`, you can customize the scenes and background commentary by modifying the `my_scenes` and `my_texts` lists. Each scene should have a corresponding background commentary, ensuring a one-to-one correspondence between the visual and audio elements.
 
 Example:
-​```python
+```python
+
 # Define your own scenes
+
 my_scenes = [
    "A chalkboard with mathematical equations, where the numbers blur and shift, illustrating the fluid nature of truth.",
    "A loom tangled with threads, half-finished tapestries hanging, symbolizing the complexity and mishaps in storytelling.",
    ...
 ]
+
 # Generate images
+
 generate_images(my_scenes)
 
 # Define your own text
+
 my_texts = [
    "In the dance of discernment, where two plus two may equal four or perhaps twenty-two,",
    "The weavers of tales, with their heavy hands, often stumble in their craft,",
    ...
 ]
-​```
+```
 
 ## Example
 
 Check out an example video created using this tool:
 
 [![Example 1](https://i.ytimg.com/vi/zwETWcPaTog/maxresdefault.jpg)](https://www.youtube.com/watch?v=zwETWcPaTog "Example 1")
-
-
-
